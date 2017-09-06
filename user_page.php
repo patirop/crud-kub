@@ -24,7 +24,7 @@ include('connection.php');
 
 
 // get results from database
-$conn = new mysqli("localhost","root","123456789","mydb");
+$conn = new mysqli("localhost","root","","mydb");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
